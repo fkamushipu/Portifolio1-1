@@ -17,9 +17,9 @@ export default function MyBlogs() {
         {/* Blog Post Card with a picture */}
         <div className="bg-[#1F1F3D] p-4 rounded-lg shadow-md">
           <Image
-            src="/blog-post-1.jpg"
+            src="/postmail.jpg"
             alt="Blog Post 1"
-            className="w-full h-48 object-cover rounded-md"
+            className="w-48 h-48 object-cover rounded-md"
             width={500}
             height={300}
           />
