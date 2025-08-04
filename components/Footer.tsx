@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="py-10  bg-[#0F0F2D] text-white">
+    <footer className="pt-20  bg-[#0F0F2D] text-white">
       <div className="text-[#FF6A3D] font-bold flex justify-center items-center text-4xl py-4">
         Jane Doe
       </div>
