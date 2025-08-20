@@ -22,7 +22,7 @@ export default function MyBlogs() {
         <div className="bg-[#1F1F3D] rounded-lg shadow-md flex flex-col">
           <div className="relative">
             <Image
-              src="/blog1.jpg"
+              src="/blog/blog1.jpg"
               alt="Blog Post 1"
               className="w-full h-48 object-cover rounded-t-lg"
               width={500}
@@ -67,7 +67,7 @@ export default function MyBlogs() {
         <div className="bg-[#1F1F3D] rounded-lg shadow-md flex flex-col">
           <div className="relative">
             <Image
-              src="/blog2.jpg"
+              src="/blog/blog2.jpg"
               alt="Blog Post 2"
               className="w-full h-48 object-cover rounded-t-lg"
               width={500}
@@ -113,7 +113,7 @@ export default function MyBlogs() {
           {/* Blog Post 3.1 */}
           <div className="flex gap-4 bg-[#1F1F3D] rounded-lg p-3">
             <Image
-              src="/blog3.jpg"
+              src="/blog/blog3.jpg"
               alt="Blog Post 3"
               className="w-24 h-24 object-cover rounded-md"
               width={100}
@@ -133,7 +133,7 @@ export default function MyBlogs() {
           {/* Blog Post 3.2 */}
           <div className="flex gap-4 bg-[#1F1F3D] rounded-lg p-3">
             <Image
-              src="/blog4.jpg"
+              src="/blog/blog4.jpg"
               alt="Blog Post 4"
               className="w-24 h-24 object-cover rounded-md"
               width={100}
@@ -153,7 +153,7 @@ export default function MyBlogs() {
           {/* Blog Post 3.3 */}
           <div className="flex gap-4 bg-[#1F1F3D] rounded-lg p-3">
             <Image
-              src="/blog5.jpg"
+              src="/blog/blog5.jpg"
               alt="Blog Post 5"
               className="w-24 h-24 object-cover rounded-md"
               width={100}
