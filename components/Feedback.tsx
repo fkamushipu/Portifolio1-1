@@ -88,7 +88,7 @@ export default function Feedback() {
 
           <button
             type="submit"
-            className="bg-[#FF6A3D] text-white py-2 px-4  rounded-xl text-uppercase w-2/5"
+            className="bg-[#FF6A3D] text-white py-2 px-4  rounded-xl uppercase w-2/5"
           >
             Send Message
           </button>
