@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <div className="py-16">
+    <div className="p-20">
       <SectionHeader
         title="My"
         highlight="Portfolio"
