@@ -18,7 +18,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="bg-[#0F0F2D] text-white font-sans py-20">
+    <div className="bg-[#0F0F2D] text-white font-sans p-20">
       <SectionHeader 
         title="My" 
         highlight="Skills" 
@@ -28,7 +28,7 @@ export default function Skills() {
         {skills.map((skill, index) => (
           <div 
             key={index} 
-            className="flex flex-col items-center justify-center p-6 bg-[#1F1F3D] rounded-md shadow-md hover:shadow-xl transition"
+            className="flex flex-col items-center justify-center p-6 bg-[#1F1F3D] rounded-md shadow-md hover:scale-105 transition transition-900"
           >
             {skill.icon}
             <p className="mt-3 pt-6 text-sm border-t border-gray-700 w-full text-center">{skill.name}</p>

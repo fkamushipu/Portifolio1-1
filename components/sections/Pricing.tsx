@@ -42,7 +42,7 @@ export default function Pricing() {
   ];
 
   return (
-    <div className="bg-[#0F0F2D] text-white font-sans py-20">
+    <div className="bg-[#0F0F2D] text-white font-sans p-20">
       <SectionHeader
         title="Pricing"
         highlight="Plans"

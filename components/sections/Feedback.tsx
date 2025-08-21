@@ -4,7 +4,7 @@ import SectionHeader from "../SectionHeader";
 
 export default function Feedback() {
   return (
-    <div className="bg-[#0F0F2D] text-white font-sans py-20  ">
+    <div className="bg-[#0F0F2D] text-white font-sans p-20  ">
       <div className=" py-10">
          <SectionHeader 
         title="Contact" 

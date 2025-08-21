@@ -8,7 +8,7 @@ import SectionHeader from "@/components/SectionHeader"
 
 export default function MyBlogs() {
   return (
-    <div className="bg-[#0F0F2D] text-white font-sans py-20">
+    <div className="bg-[#0F0F2D] text-white font-sans p-20">
        <SectionHeader 
         title="My" 
         highlight="Blogs" 

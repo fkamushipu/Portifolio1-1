@@ -30,7 +30,7 @@ export default function FAQs() {
   ];
 
   return (
-    <div className="bg-[#0F0F2D] text-white font-sans py-20">
+    <div className="bg-[#0F0F2D] text-white font-sans pt-20">
        <SectionHeader 
         title="FAQ" 
         highlight="QUESTION" 
