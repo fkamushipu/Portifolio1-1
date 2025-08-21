@@ -90,7 +90,7 @@ export default function Quote() {
   }, [index]);
 
   return (
-    <div className="bg-[#0F0F2D] text-white font-sans pt-20 pb-16">
+    <div className="bg-[#0F0F2D] text-white font-sans py-20">
       <h3 className="uppercase flex justify-center items-center text-md tracking-wider">
         CLIENTS <span className="text-[#FF6A3D] px-2"> QUOTE</span>
       </h3>

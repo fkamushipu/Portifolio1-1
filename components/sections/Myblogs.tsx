@@ -3,19 +3,17 @@ import { LiaComments } from "react-icons/lia";
 import { FiShare2 } from "react-icons/fi";
 import { HiOutlineCalendarDateRange } from "react-icons/hi2";
 import { IoEyeOutline } from "react-icons/io5";
+import SectionHeader from "@/components/SectionHeader"
 
 
 export default function MyBlogs() {
   return (
-    <div className="bg-[#0F0F2D] text-white font-sans pt-20">
-      <h3 className="uppercase flex justify-center items-center text-md tracking-wider">
-        My <span className="text-[#FF6A3D] px-2">Blogs</span>
-      </h3>
-      <div className="flex justify-center items-center text-2xl py-4">
-        <p className="w-96 tracking-tight font-semibold text-center">
-          Here are some of my latest blog posts.
-        </p>
-      </div>
+    <div className="bg-[#0F0F2D] text-white font-sans py-20">
+       <SectionHeader 
+        title="My" 
+        highlight="Blogs" 
+        subtitle="Here are some of my latest blog posts." 
+      />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
         {/* First Blog Post Card */}

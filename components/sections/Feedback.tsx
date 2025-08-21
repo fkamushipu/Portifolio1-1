@@ -1,18 +1,16 @@
 import Image from "next/image";
 import { FaPhoneVolume, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import SectionHeader from "../SectionHeader";
 
 export default function Feedback() {
   return (
-    <div className="bg-[#0F0F2D] text-white font-sans pt-20  ">
+    <div className="bg-[#0F0F2D] text-white font-sans py-20  ">
       <div className=" py-10">
-        <h3 className="uppercase flex justify-center items-center text-md tracking-wider">
-          Contact <span className="text-[#FF6A3D] px-2">Me</span>
-        </h3>
-        <div className="flex justify-center items-center text-2xl py-4 ">
-          <p className="w-96 tracking-tight font-semibold text-center">
-            I'm always open to discussing new projects and ideas.
-          </p>
-        </div>
+         <SectionHeader 
+        title="Contact" 
+        highlight="Me" 
+        subtitle="Here are some ways to reach out." 
+      />
 
         {/* Contact details */}
         <div className="flex justify-between items-center gap-4 py-4">

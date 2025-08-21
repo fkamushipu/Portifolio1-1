@@ -8,8 +8,7 @@ background - bg-[#0F0F2D]
 ## Secondary Background color 
 bg-[#1F1F3D] 
 
-## Bright Accent Colors
-## Used for buttons, icons, highlights:
+## Bright Accent Colors, Used for buttons, icons, highlights:
 
 bg-[#FF6A3D]
 text-[#FF6A3D]
@@ -35,6 +34,8 @@ pexels.com
 ## Icons 
 From react icons
 
+## Install the following modules
+npm install lucide-react
 
 ## Getting Started
 
