@@ -95,7 +95,7 @@ export default function Feedback() {
         {/* Picture */}
         <div className="">
           <Image
-            src="/postmail.jpg"
+            src="/contactme.jpg"
             alt="Feedback"
             className=""
             width={500}

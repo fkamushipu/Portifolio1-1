@@ -24,11 +24,11 @@ export default function Footer() {
 
       {/* Copyright Information */}
       <span className="flex justify-center items-center py-4">
-        <p className="flex">
+        <div className="flex">
           © <span className="text-[#FF6A3D] px-2"> 2025 </span> Tech Portfolio{" "}
           <div className="w-px h-4 bg-gray-300 mx-4" /> All rights reserved by{" "}
           <span className="text-[#FF6A3D] px-2"> Feni Kamushipu.</span>
-        </p>
+        </div>
       </span>
     </footer>
   );
